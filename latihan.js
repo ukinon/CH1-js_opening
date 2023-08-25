@@ -8,14 +8,14 @@ for (let i = 0; i < contohArray.length; i++) {
 // console.log(`ini index ke ${i} dari contohArray yaitu : ${contohArray[i]}`)
 }
 
-// 2. contoh mainan object 
+// 2. contoh mainan object
 const contohObj = {
     name: "imam",
     age: 28,
     id: 1
 }
 
-console.log(contohObj.name)
+// console.log(contohObj.name)
 
 //no. 1
 console.log(`ini name dari contohObj yaitu : ${contohArray.name}`)
@@ -51,7 +51,7 @@ for(const object of [obj1, obj2, obj4, obj5, obj6, obj7]){
     if(names.includes(object.name)){
         data.push(object)
     }
-    
+
 }
 
 for(let i = 0; i<data.length; i++){
